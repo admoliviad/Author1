@@ -1,0 +1,219 @@
+/********************************** 
+CSS Reset
+***********************************/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/********************************** 
+Base Rules
+***********************************/
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h1 {
+    font-size: 63px;
+    font-weight: 600;
+}
+
+h2 {
+    display: inline-block;
+    font-size: 42px;
+    line-height: 24px;
+    color: rgb(78,82,93);
+    font-weight: 400;
+}
+
+h3 {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+
+/********************************** 
+Layout Rules
+***********************************/
+.wrap {
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+
+
+
+
+/********************************** 
+Components
+***********************************/
+.menu {
+    list-style: none;
+    font-size: 0;
+    float: right;
+}
+.menu li {
+    display: inline-block;
+    margin: 0 7px;
+}
+.menu a {
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    font-weight: 700;
+    font-size: 15px;
+    border-bottom: 2px solid transparent;
+    padding: 40px 28px;
+    transition: color .3s, border-color .3s;
+}
+.menu a:hover {
+    border-color: #49cbcd;
+    color: #8fdddf;
+    background-color: #e2e8f0;
+}
+
+/********************************** 
+Modules
+***********************************/
+
+.header {
+    background-color: white;
+    overflow: auto;
+}
+
+.logo img {
+    height: 38px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.slider {
+    min-height: 565px;
+    background-image: url('../img/slider.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding-top: 138px;
+    padding-bottom: 20px;
+
+}
+.slider .wrap {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+.slider h1 {
+    color: white;
+    display: inline;
+    text-shadow: 0px 1px 0px #444;
+}
+
+.slider p {
+    font-size: 23px;
+    font-weight: 400;
+    color: white;
+    line-height: 37px;
+    margin-top: 37px;
+    text-shadow: 0px 1px 0px #444;
+}
+
+.slider a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    font-size: 26px;
+    font-weight: 600;
+    padding: 8px 36px;
+    border: 3px solid;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px #444;
+    margin-top: 47px;
+}
+
+.slider a:hover {
+    box-shadow: 0px 10px 70px rgba(0,0,0, 0.5);
+}
+
+.services {
+    color: #4e525d;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto 100px;
+}
+
+.service-gallery {
+    font-size: 0;
+    margin: 40px -15px 0 -15px;
+}
+
+.service-item {
+    display: inline-block;
+    width: 25%;
+    text-align: center;
+    /* outline: 1px solid red; */
+    padding: 15px;
+}
+
+.services img {
+    height: 48px;
+}
+
+.services h3 {
+    margin-top: 24px;
+    margin-bottom: 20px;
+}
+
+.services p {
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.portfolio {
+    min-height: 1030px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 64px;
+    font-size: 0;
+    margin: 40px -15px 0 -15px;
+}
+
+.portfolio .wrap {
+    padding-top: 62px; 
+}
+
+.portfolio h2 {
+    font-size: 42px;
+    line-height: 24px;
+    color: rgb(78,82,93);
+    font-weight: 400;
+    text-shadow: 0px 1px 0px #444;
+}
+
+.portfolio img {
+    margin: 10px;
+    width: 370px;
+}
+
+.portfolio a {
+    display: inline-block;
+    color: white;
+    background-color: #49cbcd;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 600;
+    padding: 8px 36px;
+    border-radius: 10px;
+    box-shadow: 0px 1px 0px #444;
+    margin-top: 47px;
+}
+
+.portfolio a:hover {
+    box-shadow: 0px 10px 70px rgba(0,0,0, 0.5);
+}
