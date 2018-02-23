@@ -77,7 +77,20 @@ Layout Rules
     vertical-align: top;
 }
 
-.people-item4 {
+.portfolio {
+    background-color: #f1f1f1;
+    color: #4e525d;
+    font-size: 0;
+    text-align: center; 
+}
+
+
+.portfolio-3columns {
+    padding-top: 35px; 
+    margin-left: -15px;
+}
+
+.team-item4 {
     font-size: 14px;
     font-weight: 400;
     line-height: 1.5;
@@ -222,24 +235,13 @@ Modules
     box-shadow: 0px 7px 30px rgba(0,0,0, 0.5);
 }
 
-.portfolio {
-    background-color: #f1f1f1;
-    color: #4e525d;
-    font-size: 0;
-    text-align: center; 
-}
 
-
-.portfolio-3columns {
-    padding-top: 35px; 
-    margin-left: -15px;
-}
 
 .portfolio-image3 {
     padding: 15px 15px;
     width: 33.33%;
     display: inline-block;
-    height: 315px;
+    /* min-height: 315px; */
 }
 
 .portfolio a {
@@ -262,24 +264,23 @@ Modules
 }
 
 
-.people-item4 .people-image img {
+.team-item4 .team-image img {
     width: 100%;
     height: 128px;
     border-radius: 100px;
 }
 
-.services .people-item4 a {
+.services .team-item4 a {
     display: inline-block;
     color: #e9f9f9;
     text-decoration: none;
     font-size: 14px;
     font-weight: 400;
-    padding: 8px 10px;
     margin-top: 20px;
 }
 
-.people-image .portfolio-overlay {
-    background-color: #efefea;
+.team-image .portfolio-overlay {
+    background-color: rgba(244, 244, 244, 0.733);
     position: absolute;
     top: 0;
     left: 0;
@@ -291,11 +292,11 @@ Modules
     border-radius: 100px;
 }
 
-.people-image a {
+.team-image a {
     position: relative;
 }
 
-.people-image a:hover .portfolio-overlay {
+.team-image a:hover .portfolio-overlay {
     visibility: visible;
     opacity: 1;
 }
@@ -306,4 +307,78 @@ Modules
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+/* .plans {
+    padding: 15px 15px;
+    width: 33.33%;
+    display: inline-block;
+    font-size: 14px;
+    line-height: 45px;
+    color: rgb(140,146,153);
+    font-weight: 400;
+    text-align: center;
+} */
+
+.table {
+    font-weight: 400;
+    display: inline-block;
+    padding: 15px 15px;
+    width: 33.33%;
+    font-size: 14px;
+    line-height: 45px;
+    color: rgb(140,146,153);
+    text-align: center;
+}
+
+.table table {
+    text-align: center;
+    width: 100%;
+}
+
+.table th {
+    background-color: green;
+    padding: 30px;
+    color: white;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 48px;
+    color: rgb(255,255,255);
+}
+
+.table td h3 {
+    background-color: #f8f9fb;
+    color: black;
+}
+
+.table tbody {
+    border-bottom: 1px solid #ecf0f1;
+    background-color: white;
+}
+
+
+/* .table table tr th:nth-child(odd) {
+    background-color: #485460;
+}
+
+.table table:nth-child(even) th {
+    background-color: #49cbcd;
+} */
+
+.table tfoot {
+    background-color: #f8f9fb;
+}
+
+.table tfoot a {
+    display: inline-block;
+    background-color: #49cbcd;
+    text-decoration: none;
+    font-weight: 600;
+    padding: 10px 50px;
+    border-radius: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 17px;
+    color: rgb(255,255,255);
+    text-align: center;
 }
