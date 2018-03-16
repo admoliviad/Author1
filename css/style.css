@@ -88,6 +88,7 @@ Layout Rules
 .portfolio-3columns {
     padding-top: 35px; 
     margin-left: -15px;
+    padding-bottom: 35px;
 }
 
 .team-item4 {
@@ -99,6 +100,22 @@ Layout Rules
     width: 25%;
     padding: 100px 15px;
     vertical-align: top;
+}
+
+.testimonials {
+    text-align: center;
+    margin: 100px 263px 100px 263px;
+    max-width: 644px;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    min-height: 565px;
+    background-image: url('../img/contact.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -357,13 +374,13 @@ Modules
 }
 
 
-/* .table table tr th:nth-child(odd) {
+.table table tr th:nth-child(odd) {
     background-color: #485460;
 }
 
-.table table:nth-child(even) th {
+.table table th:nth-child(even) {
     background-color: #49cbcd;
-} */
+}
 
 .table tfoot {
     background-color: #f8f9fb;
@@ -382,3 +399,65 @@ Modules
     color: rgb(255,255,255);
     text-align: center;
 }
+
+.testimonials p {
+    margin-top: 45px;
+    font-size: 19px;
+    line-height: 30px;
+    color: #4e525d;
+}
+
+.testimonials span {
+    font-size: 19px;
+    line-height: 30px;
+    color: #9a8faf;
+    margin-top: 40px;
+}
+
+.footer h2,
+.footer h3 {
+    color: white;
+    display: block;
+}
+
+.gallery-item-2 {
+    display: inline-block;
+    width: 50%;
+    padding: 15px;
+    margin: 0 -15px 0 -15px;
+}
+
+label {
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+input[type="text"],
+input[type="email"],
+textarea {
+    font-family: inherit;
+    width: 100%;
+    max-width: 270px;
+    /* daca folositi height pt dimensionarea inputului
+    nu folositi si padding pe verticala */
+    height: 45px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background: white;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+textarea {
+    max-width: 100%;
+    height: 220px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.contact-button {
+    background-color: #49cbcd;
+}
+
